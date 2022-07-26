@@ -83,3 +83,15 @@ end)
 ```lua
 FZZYService:CastRay(SecondPart.Position, Vector3.new(0, -100, 0), SecondPart.Parent, Enum.RaycastFilterType.Blacklist, {SecondPart.Parent})
 ```
+### `:getPlayerFromCharacter(CHARACTER_INSTANCE)`
+#### Returns the character's respective player.
+```lua
+local Player = FZZYService:getPlayerFromCharacter(Character)
+print(Player.Name)
+```
+### `getGameId()`
+#### Returns the game's global id.
+```lua
+local GameId = FZZYService:getGameId()
+print(GameId)
+```
