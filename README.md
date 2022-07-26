@@ -89,7 +89,7 @@ FZZYService:CastRay(SecondPart.Position, Vector3.new(0, -100, 0), SecondPart.Par
 local Player = FZZYService:getPlayerFromCharacter(Character)
 print(Player.Name)
 ```
-### `getGameId()`
+### `:getGameId()`
 #### Returns the game's global id.
 ```lua
 local GameId = FZZYService:getGameId()
