@@ -95,3 +95,8 @@ print(Player.Name)
 local GameId = FZZYService:getGameId()
 print(GameId)
 ```
+### `:Weld(PART_0, PART_1, PART_TO_INSERT_WELD_INTO)`
+#### Welds 2 parts together. Returns with the Weld if a `local` is inserted.
+```lua
+FZZYService:Weld(FirstPart, SecondPart, FirstPart)
+```
