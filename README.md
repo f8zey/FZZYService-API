@@ -78,8 +78,8 @@ FZZYService:spawn("STRING", function()
   print("Hello World!")
 end)
 ```
-### `:CastRay(RAY_ORIGIN, RAY_DIRECTION, FILTER_TYPE, FILTERED_INSTANCES_TABLE)`
+### `:CastRay(RAY_ORIGIN, RAY_DIRECTION, RAY_PARENT, FILTER_TYPE, FILTERED_INSTANCES_TABLE)`
 #### Casts a ray with the following Arguments as information.
 ```lua
-FZZYService:CastRay(SecondPart.Position, Vector3.new(0, -100, 0), Enum.RaycastFilterType.Blacklist, {SecondPart.Parent})
+FZZYService:CastRay(SecondPart.Position, Vector3.new(0, -100, 0), SecondParent.Parent, Enum.RaycastFilterType.Blacklist, {SecondPart.Parent})
 ```
